@@ -1,0 +1,191 @@
+/* 
+https://youtu.be/dpZQFTXSfjs?si=9pPNzeVXQxAfStzS
+#79A3F2 (sky blue)
+#4875F6 (dark blue)
+#F6ECF5 (baby purple)
+#91C120 (green)
+#3C691F (dark green)
+#6219E0 (purple)
+#E59BE2 (burple)
+ */
+
+@font-face {
+    font-family: 'Roboto-Bo';
+    src: url(../font/Roboto-Bo.ttf) format("truetype");
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto-Bo', -apple-system, system-ui;
+    cursor: url('../img/cursor.png'), auto;
+}
+
+.main-bod {
+    background-image: url("../img/wxp.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.splash {
+    background-color: #F6ECF5;
+    text-align: center;
+    margin: 25%;
+    transition: width .5s linear;
+}
+
+.pancake-splash:hover {
+    transform: scale(1.5);
+    cursor: url('../img/grab.png'), auto;
+}
+
+main {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    font-size: 12pt;
+    border-radius: 15px;
+    align-items: baseline;
+    margin-right: 1%;
+    margin-left: 21%;
+}
+
+section img {
+    /* border-radius: 6pt;
+    border: 3pt solid #F6ECF5; */
+    margin: 10pt;
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+
+.container {
+    background-color: #E59BE2;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20pt;
+
+}
+
+.uni {
+    padding-top: 15pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.food {
+    padding-top: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20pt;
+}
+
+.kikuo {
+    background-color: #6219E0;
+    padding-top: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10pt;
+}
+
+.deepspace {
+    background-color: #79A3F2;
+    padding-top: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10pt;
+}
+
+video {
+    padding-top: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+nav .left {
+    background-color: #E59BE2;
+    border: 5pt dashed #91C120;
+    text-align: center;
+    width: 15%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 10pt;
+    margin: auto;
+    transition: width 0.2s linear;
+}
+
+#pancake_dance {
+    border: 3pt groove #3C691F;
+    border-radius: 6pt;
+    background-color: #91C120;
+    margin: auto;
+    margin-bottom: 20pt;
+    padding: 5pt;
+    display: block;
+    transition: all 0.5s ease;
+    height: auto;
+    width: 75%;
+    /**how to get this thing to move with the nav >:(**/
+}
+
+#pancake_dance:hover {
+    transform: scale(1.05);
+}
+
+#friends {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #F6ECF5;
+    color: #FFFFFF;
+}
+
+a {
+    color: #F6ECF5;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    cursor: url('../img/grab.png'), auto;
+}
+
+a:hover {
+    background-color: #6219E0;
+}
+
+/* nav .right {
+    background-color: #E59BE2;
+    border: 2pt solid #6219E0;
+    text-align: center;
+    max-width: 25%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    padding: 10pt;
+    transition: width 0.2s linear;
+}
+
+#sypmhony {
+    border-radius: 6pt;
+    padding: 3%;
+} */
+
+h2 {
+    text-align: center;
+    position: static;
+}
